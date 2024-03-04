@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: shahzeb799/nginx:build-38
+          image: shahzeb799/nginx:build-62
           imagePullPolicy: Always
           ports:
             - containerPort: 80
@@ -41,7 +41,7 @@ spec:
         team: analytics
       containers:
         - name: webapi
-          image: shahzeb799/testapi:build-38
+          image: shahzeb799/testapi:build-62
           imagePullPolicy: Always
           ports:
             - containerPort: 80
