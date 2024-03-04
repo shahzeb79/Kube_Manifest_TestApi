@@ -37,8 +37,6 @@ spec:
       labels:
         app: webapi
     spec:
-      nodeSelector:
-        team: analytics
       containers:
         - name: webapi
           image: shahzeb799/testapi:build-62
